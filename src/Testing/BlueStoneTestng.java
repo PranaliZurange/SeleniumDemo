@@ -1,0 +1,50 @@
+package Testing;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Reporter;
+import org.testng.annotations.Test;
+
+public class BlueStoneTestng 
+{
+@Test
+public void demo() throws InterruptedException
+{
+	System.setProperty("webdriver.chrome.driver", ".\\Softwares\\chromedriver.exe");
+	WebDriver driver = new ChromeDriver();// upcasting
+	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+	Reporter.log("Launching browser");
+	Thread.sleep(5000);
+	driver.get("https://www.bluestone.com/");
+	 driver.manage().window().maximize();
+ driver.findElement(By.xpath("//div[@class='hp-gms-banner']/descendant::strong[text()='10 + 1']")).click();
+
+ Thread.sleep(1000);
+WebElement amount=driver.findElement(By.xpath("//input[@name=\"amount\"]"));
+ amount.sendKeys("1500");
+ 
+ WebElement email=driver.findElement(By.xpath("//input[@name=\"email\"]"));
+ email.sendKeys("pranalizurange@gmail.com");
+ Thread.sleep(2000);
+ String s1=driver.getTitle();
+ Reporter.log(s1);
+ driver.findElement(By.xpath("//div[@class=\"form-submit text-center auto-filled\"]/input[@type='submit']")).click();
+String s2=driver.getTitle();
+Reporter.log(driver.getTitle());
+Thread.sleep(1000);
+ if(s1!=(s2))
+ {
+	 Reporter.log(" it is  reflected in next page");
+ }
+ else
+ {
+	 Reporter.log(" it is reflected in this page");
+     }
+
+driver.close();	
+}
+}

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[A]]>
+    </line>
+    <line>
+      <![CDATA[ABC]]>
+    </line>
+    <line>
+      <![CDATA[B]]>
+    </line>
+    <line>
+      <![CDATA[BCD]]>
+    </line>
+    <line>
+      <![CDATA[C]]>
+    </line>
+    <line>
+      <![CDATA[CDE]]>
+    </line>
+    <line>
+      <![CDATA[D]]>
+    </line>
+    <line>
+      <![CDATA[DEF]]>
+    </line>
+    <line>
+      <![CDATA[E]]>
+    </line>
+    <line>
+      <![CDATA[EFG]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1238" started-at="2020-01-09T15:37:42 IST" finished-at="2020-01-09T15:37:43 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1238" started-at="2020-01-09T15:37:42 IST" finished-at="2020-01-09T15:37:43 IST">
+      <class name="AssertProgram.TestReadXmlDatap">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:AssertProgram.TestReadXmlDatap@109bb57]" name="test" duration-ms="14" started-at="2020-01-09T15:37:43 IST" data-provider="createUser" finished-at="2020-01-09T15:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ABC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[A]]>
+            </line>
+            <line>
+              <![CDATA[ABC]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:AssertProgram.TestReadXmlDatap@109bb57]" name="test" duration-ms="2" started-at="2020-01-09T15:37:43 IST" data-provider="createUser" finished-at="2020-01-09T15:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[BCD]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[B]]>
+            </line>
+            <line>
+              <![CDATA[BCD]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:AssertProgram.TestReadXmlDatap@109bb57]" name="test" duration-ms="2" started-at="2020-01-09T15:37:43 IST" data-provider="createUser" finished-at="2020-01-09T15:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CDE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[C]]>
+            </line>
+            <line>
+              <![CDATA[CDE]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:AssertProgram.TestReadXmlDatap@109bb57]" name="test" duration-ms="1" started-at="2020-01-09T15:37:43 IST" data-provider="createUser" finished-at="2020-01-09T15:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[D]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DEF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[D]]>
+            </line>
+            <line>
+              <![CDATA[DEF]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:AssertProgram.TestReadXmlDatap@109bb57]" name="test" duration-ms="1" started-at="2020-01-09T15:37:43 IST" data-provider="createUser" finished-at="2020-01-09T15:37:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[E]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EFG]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[E]]>
+            </line>
+            <line>
+              <![CDATA[EFG]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- AssertProgram.TestReadXmlDatap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
